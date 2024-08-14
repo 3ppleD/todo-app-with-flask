@@ -1,6 +1,6 @@
 from flask import Blueprint, session, redirect, flash, url_for, request, render_template
 from model.model import Todo
-from _init_ import db
+from app import db
 from functools import wraps
 
 

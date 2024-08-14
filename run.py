@@ -1,4 +1,4 @@
-from _init_ import app,db
+from app import app,db
 
 app.env = "development"
 
